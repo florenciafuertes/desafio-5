@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Viajando de Sur a Sur</title>
+</head>
+<body>
+	<div class="contenedorGrid">
+		<!-- Menu y Logo --> 
+		<div class="header">
+			<img src="assets/logohorizontal.png" alt="logo" class="header__img">
+			<div class="header__nav">
+				<ul>
+					<li><a href="index.html">INICIO</a></li>
+					<li><a href="nosotros.html">NOSOTROS</a></li>
+					<li><a href="relatos.html">RELATOS</a></li>
+					<li><a href="guias.html">GUIAS</a></li>
+					<li><a href="contacto.html">CONTACTO</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Formulario de Contacto --> 
+		<div class="formulario">
+			<form action="contacto.html" method="GET">
+				<div class="form__title">CONTACTANOS</div>
+				<input type="text" name="Nombre" placeholder="NOMBRE" class="form__complete">
+				<input type="email" name="Mail" placeholder="MAIL" class="form__complete">
+				<div>¿Cómo nos conociste?</div>
+				<select name="medios">
+					<option value="Redes">Redes Sociales</option>
+					<option value="Google">Google</option>
+					<option value="Otros">Otros</option>
+				</select>
+				<div>¿Querés recibir nuestro Newslater?
+					<label for="si">Si</label>
+					<input type="radio" name="newslater" id="si" value="si">
+					<label for="no">No</label>
+					<input type="radio" name="newslater" id="no" value="no">
+				</div>
+				<div>Dejanos un mensaje:
+					<textarea name="mensaje">
+				
+					</textarea>	
+					<input type="submit" name="Enviar" value="ENVIAR">
+					<input type="reset" name="Limpiar" value="LIMPIAR">
+				</div>
+			</form>
+		</div>
+		<!-- Pie de página -->
+		<div class="footer">
+			<div class="footer__nav">
+				<ul>
+					<li><a href="index.html">INICIO</a></li>
+					<li><a href="nosotros.html">NOSOTROS</a></li>
+					<li><a href="relatos.html">RELATOS</a></li>
+					<li><a href="guias.html">GUIAS</a></li>
+					<li><a href="contacto.html">CONTACTO</a></li>
+				</ul>
+			</div>
+			<div class="footer__redes">
+				<div class="footer__title">Seguinos en nuestras redes</div>
+				<img src="assets/redes.png" alt="redes sociales" class="footer__img">
+				<a href="https://www.instagram.com/" target="_blank" class="footer__ig">Instagram</a>
+				<a href="https://www.youtube.com/" target="_blank" class="footer__yt">YouTube</a>
+				<a href="https://www.facebook.com/" target="_blank" class="footer__fb">Facebook</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
