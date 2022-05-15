@@ -411,7 +411,7 @@ body{
   	top: 5px;
   	left: 5px;
   	transition: 0.2s;
-  	background-color: #d6e1f7;
+  	background-color: #5b96ee;
 }
 @media	all and	(max-width: 768px){
 	.relatos__btn{
@@ -460,14 +460,14 @@ body{
  	min-width: 130px;
  	height: 40px;
  	padding: 5px 50px;
-  	font-weight: bold;
-  	border: 1px solid #000;
-  	color: #252440;
-  	background: transparent;
-  	text-align: center;
-  	font-family: 'Oswald', sans-serif;
-  	font-size: 1.3rem;
-  	margin: 1rem;
+  font-weight: bold;
+  border: 1px solid #000;
+  color: #252440;
+  background: transparent;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+  margin: 1rem;
 }
 /*GUIAS*/
 .contenedorGrid{
