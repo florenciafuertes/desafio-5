@@ -104,8 +104,7 @@ body{
 }
 .main__img{
 	grid-area: imagen;
-	width: 80%;
-	margin-left: 2rem;
+	width: 100%;
 }
 @media all and (max-width: 768px){
 	.main__img{
@@ -152,7 +151,7 @@ body{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 160px 160px;
-	grid-column-gap: 10px;
+	grid-column-gap: 40px;
 	text-align: left;
 	margin-top: 1rem;
 }
@@ -165,7 +164,13 @@ body{
  	border-left: 4px solid #d6e1f7;
  	margin-top: 2rem;
  	padding-left: 1rem;
+ 	transition: all 250ms;
  } 
+ .destacados__info:hover{
+ 	transform: scale(1.1);
+ 	box-shadow: 5px 1px 5px 1px #2570e2;
+ 	background-color: white;
+ }
 .destacados__info img{
 	width: 22%;
 }
@@ -194,6 +199,7 @@ body{
 		font-size: 1.6rem;
 	}
 }
+/* PIE DE PÁGINA */
 .footer{
 	grid-area: footer;
 	display: flex;
@@ -419,16 +425,19 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: stretch;
 }
 .boxes__relato{
 	border: 1px solid grey;
-	width: 48%;
+	width: 32%;
 	text-align: justify;
 	color: #646464;
 	padding: 1rem;
 	margin-bottom: 1rem;
 	line-height: 1.6rem;
+	transition: all 200ms;
+}
+.boxes__relato:hover{
+	box-shadow: 5px 10px 20px 5px #d6e1f7 inset;
 }
 @media all and (max-width: 768px){
 	.boxes__relato{
@@ -478,6 +487,7 @@ body{
 	align-items: flex-end;
 	flex-wrap: wrap;
 	margin-top: 4rem;
+	margin: auto;
 	text-align: center;
 	background-image: url(../assets/mapamundi.png);
 	background-position: center;
